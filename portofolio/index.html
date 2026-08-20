@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Porto<span>Folio.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#about" class="nav-item">Tentang</a></li>
+                <li><a href="#education" class="nav-item">Pendidikan</a></li>
+                <li><a href="#skills" class="nav-item">Keahlian</a></li>
+                <li><a href="#projects" class="nav-item">Proyek</a></li>
+                <li><a href="#contact" class="nav-item">Kontak</a></li>
+            </ul>
+            <div class="nav-btns">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <span class="badge"><i class="fas fa-sparkles"></i> Tersedia untuk Kolaborasi</span>
+                <h1>Halo, Saya <span class="highlight">Muhammad Veldy Arfian Pradana</span></h1>
+                <h3 class="dynamic-box">Saya seorang siswa <span id="typing-text" class="typing-text"></span></h3>
+                <p class="hero-meta"><i class="fas fa-graduation-cap"></i> Kelas XI SIJA 1 &bull; Sistem Informasi Jaringan Aplikasi</p>
+                <p class="hero-desc">Berfokus pada pembuatan antarmuka web yang bersih, responsif, dan interaktif. Senang memecahkan masalah kompleks lewat baris kode yang efisien.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hubungi Saya <i class="fas fa-arrow-right"></i></a>
+                    <a href="#projects" class="btn btn-outline">Lihat Karya</a>
+                </div>
+            </div>
+            <div class="profile-img-box">
+                <div class="img-glow-wrapper">
+                    <img src="img/39adffc7-eefc-4b35-a6aa-abad085e3394.jpg" alt="Foto Profil" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">Tentang <span>Saya</span></h2>
+        <div class="about-container">
+            <div class="about-card glass">
+                <div class="card-icon"><i class="fas fa-user-astronaut"></i></div>
+                <h3>Biografi Singkat</h3>
+                <p>Saya adalah seorang pelajar yang mendedikasikan waktu untuk mendalami arsitektur web dan rekayasa perangkat lunak. Bagi saya, coding bukan sekadar mengetik instruksi, melainkan seni menyelesaikan masalah secara kreatif dan sistematis.</p>
+            </div>
+            <div class="about-card glass">
+                <div class="card-icon"><i class="fas fa-heart"></i></div>
+                <h3>Minat & Hobi</h3>
+                <div class="hobby-grid">
+                    <span class="hobby-tag"><i class="fas fa-code"></i> Coding</span>
+                    <span class="hobby-tag"><i class="fas fa-book"></i> Literasi Tech</span>
+                    <span class="hobby-tag"><i class="fas fa-gamepad"></i> Game Strategi</span>
+                    <span class="hobby-tag"><i class="fas fa-bolt"></i> Analisis Data</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section bg-alt">
+        <h2 class="section-title">Riwayat <span>Pendidikan</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <span class="date">2025 - Sekarang</span>
+                    <h3>SMK Negeri Telkom Sidoarjo</h3>
+                    <p class="edu-spec">Kompetensi Keahlian: Sistem Informasi Jaringan Aplikasi</p>
+                    <p>Mendalami rekayasa web, logika pemrograman terapan, basis data relasional, dan pengembangan berorientasi objek.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass">
+                    <span class="date">2021 - 2024</span>
+                    <h3>SMP Negeri 6 Sidoarjo</h3>
+                    <p>Mulai mengenal konsep dasar komputer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Keahlian <span>Sains & Tech</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card glass">
+                <div class="skill-header">
+                    <i class="fab fa-html5 html-icon"></i>
+                    <h4>HTML5 / CSS3</h4>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-card glass">
+                <div class="skill-header">
+                    <i class="fab fa-js js-icon"></i>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 78%;"></div></div>
+            </div>
+            <div class="skill-card glass">
+                <div class="skill-header">
+                    <i class="fab fa-python python-icon"></i>
+                    <h4>Python</h4>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-card glass">
+                <div class="skill-header">
+                    <i class="fas fa-database db-icon"></i>
+                    <h4>SQL / Databases</h4>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 82%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-alt">
+        <h2 class="section-title">Karya & <span>Proyek</span></h2>
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="web">Web App</button>
+            <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+            <div class="project-card glass" data-category="web">
+                <div class="project-banner project-1"></div>
+                <div class="project-info">
+                    <span class="project-tag">Web App</span>
+                    <h3>Harris Mobil - Jual Beli Mobil</h3>
+                    <p>Website jual beli mobil bekas untuk memudahkan user membeli/melihat mobil </p>
+                </div>
+            </div>
+            <div class="project-card glass" data-category="ui">
+                <div class="project-banner project-2"></div>
+                <div class="project-info">
+                    <span class="project-tag">UI/UX Design</span>
+                    <h3>E-Learning Dashboard UI</h3>
+                    <p>Eksplorasi desain antarmuka modern yang berfokus pada kenyamanan belajar siswa (User-Centered Design).</p>
+                </div>
+            </div>
+            <div class="project-card glass" data-category="web">
+                <div class="project-banner project-3"></div>
+                <div class="project-info">
+                    <span class="project-tag">Web App</span>
+                    <h3>Portofolio Responsif v1</h3>
+                    <p>Situs profil pribadi tangguh dengan performa tinggi yang dioptimalkan untuk seluruh ukuran layar perangkat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Mari <span>Terhubung</span></h2>
+        <div class="contact-container">
+            <div class="contact-info glass">
+                <h3>Informasi Kontak</h3>
+                <div class="info-item">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <div>
+                        <h4>Surel Resmi</h4>
+                        <p>veldypradanaa@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-hashtag"></i>
+                    <div>
+                        <h4>Jaringan Sosial</h4>
+                        <div class="social-links">
+                            <a href="https://github.com/Vern44" aria-label="Github"><i class="fab fa-github"></i></a>
+                            <a href="https://www.instagram.com/vnnenenene?igsh=MWxrbXRpcGN6eHc3bw%3D%3D&utm_source=qr" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="www.linkedin.com/in/muhammad-veldy-arfian-pradana-3027a3421" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form glass" id="contactForm">
+                <h3>Kirim Pesan Teknis</h3>
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name">Nama Lengkap</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Alamat Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="4" required placeholder=" "></textarea>
+                    <label for="message">Pesan Anda...</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Enkripsi Pesan <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Crafted with <i class="fas fa-heart text-danger"></i> by <strong>Muhammad Veldy Arfian Pradana</strong>. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
